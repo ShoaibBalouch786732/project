@@ -1,0 +1,283 @@
+
+.navbar-brand{
+    font-family: Work Sans;
+font-size: 30px;
+line-height: 35px;
+letter-spacing: 0em;
+text-align: left;
+color: #52DBB2;
+
+}
+.downarrow{
+    margin-top: -12px;
+}
+.profile-item div{
+    margin:0px 10px
+}
+.sidebar {
+  margin: 0;
+  padding: 0;
+  width: 250px;
+
+  
+  height: 100%;
+  overflow: auto;
+}
+
+.sidebar a {
+  display: block;
+  color: black;
+  padding: 16px;
+  margin: 30px;
+  font-family: Work Sans;
+  font-size: 20px;
+  line-height: 23px;
+  letter-spacing: 0em;
+}
+ 
+.sidebar a.active {
+  background: linear-gradient(90deg, #eafbf6 0%, rgba(255, 255, 255, 0) 96.6%);
+  color: rgb(65, 31, 31);
+}
+
+.sidebar a:hover:not(.active) {
+  background-color: #f1f1f9;
+  color: rgb(14, 13, 13);
+}
+
+div.content {
+  margin-left: 200px;
+  padding: 1px 16px;
+  height: 1000px;
+}
+
+ @media (min-width: 250px) and (max-width: 992px) {
+  .sidebar {
+    width: 100%;
+    margin-bottom: 4px;
+    height: auto;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .sidebar a {float: left;
+    
+    margin: 0px;
+    font-family: Work Sans;
+    font-size: 20px;
+    line-height: 23px;
+    letter-spacing: 0em;
+  
+    ;}
+  div.content {margin-left: 0;}
+}
+ @media (min-width: 576px) and (max-width: 700px) {
+.sidebar a i{
+  display:none;
+
+ }
+ .sidebar a span{
+  display: inline;
+ }
+
+ }
+a {
+  text-decoration: none;
+} 
+
+
+ 
+.mainbody {
+  background-color: #eafff6;
+  border-radius: 20px;
+}
+.has-search .form-control {
+  padding-left: 2.375rem;
+}
+input {
+  height: 50px;
+  align-items: center;
+  width: 320px;
+  border-radius: 24px;
+  background-color: #aaa;
+}
+.has-search .form-control-feedback {
+  position: absolute;
+  z-index: 2;
+  display: block;
+  width: 2.375rem;
+  height: 2.375rem;
+  line-height: 2.375rem;
+  text-align: center;
+  pointer-events: none;
+  color: #aaa;
+}
+
+.has-search .fa-search {
+  margin: 8px 6px;
+}
+.reveiw .grouped-img {
+  width: 60px;
+}
+.reveiw .grouped-img img {
+  margin-left: -12px;
+  text-align: center;
+}
+.reveiw {
+  display: block;
+  width: 100px;
+  height: 130px;
+  text-align: left;
+  border-radius: 10px;
+
+  background-color: rgb(209, 250, 250);
+}
+.main-content h1 {
+  font-family: Work Sans;
+  font-size: 36px;
+  line-height: 30px;
+  letter-spacing: 0em;
+  text-align: left;
+}
+
+.main-content p {
+  font-family: Work Sans;
+  font-size: 18px;
+  line-height: 35px;
+  letter-spacing: 0em;
+}
+
+.graph-img img {
+  width: 600px;
+  height: 200px;
+}
+.reveiw h4 {
+  font-family: Work Sans;
+  font-size: 18px;
+  line-height: 18px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #54d9b3;
+}
+
+
+div .reveiwplus {
+  width: 110px;
+  height: 130px;
+  font-size: 18px;
+  
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: rgb(209, 250, 250);
+  text-align: center;
+}
+h5 span{
+  font-size: 14px;
+  padding: 0px 8px;
+  font-weight: 400;
+}
+.analytics {
+  padding: 0px 20px 0px 0px;
+ 
+ 
+  border-radius: 15px;
+  padding: 15px;
+}
+.client {
+ 
+  height: 270px;
+
+  border-radius: 15px;
+  padding: 15px;
+}
+.revenue {
+
+
+  border-radius: 15px;
+  padding: 15px;
+}
+.revenue img{
+  width: 94%;
+}
+.teams {
+  border-radius: 15px;
+  padding: 15px;
+  
+}
+.teamperson{
+  color:#52DBB2;
+}
+
+ @media (min-width: 992px) and (max-width: 1300px){
+
+  .analytics {
+  
+    width: 66%;
+  height: 300px;
+  }
+  .client {
+    width: 33%;
+ height: 300px;
+  
+    
+  }
+  .revenue {
+ 
+    width: 67%;
+  
+  }
+  .teams {
+    width: 32%;
+  }
+} 
+@media   (max-width: 300px) and (min-width:991px){
+.client{
+  width: 100%;
+}
+.revenue {
+  width: 100%;
+}
+.analytics{
+  width: 100%;
+}
+.teams {
+width: 100%;}
+
+}
+@media   (max-width: 300px) and (min-width:772px){
+
+  .reveiw h4 {
+    font-family: Work Sans;
+    font-size: 16px;
+    line-height: 16px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #54d9b3;
+  }
+    div .reveiwplus {
+      width: 80px;
+      height: 120px;
+      font-size: 14px;
+      border-radius: 8px;
+    padding: auto;
+    color: #54d9b3;
+  
+    }
+    .reveiw{
+      width: 80px;
+    }
+    .reveiw .grouped-img {
+      width: 50px;
+    }
+    .reveiw .grouped-img img {
+      width: 20px;
+      height: 20px;
+      margin-left: -8px;
+      text-align: right;
+      color: #54d9b3;
+    }
+  }
